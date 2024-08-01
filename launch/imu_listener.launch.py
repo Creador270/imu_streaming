@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='demo_nodes_cpp',
-            executable='imu_listener',
+            executable='listener',
             name='imu_listener',
         ),
     ])
